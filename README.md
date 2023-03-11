@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)
@@ -51,3 +52,7 @@ rm -rf app
 # copy your app over
 cp -R ../my-old-remix-app/app app
 ```
+=======
+# everscore_influencer
+influencer page for everscore marketplace
+>>>>>>> d80ea989c247e11b3da8d5f89421513f9239c524

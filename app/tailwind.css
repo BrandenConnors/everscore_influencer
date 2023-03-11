@@ -1,0 +1,101 @@
+@import url('https://use.typekit.net/vdu7qly.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
+
+@tailwind base;
+
+h1 {
+  font-size: 6rem !important; /* 96px */
+  line-height: 1;
+  font-weight: 700 !important;
+  letter-spacing: 0.025em;
+}
+
+h2 {
+  font-size: 3.50rem !important; /* 65px */
+  line-height: 1;
+  font-weight: 700 !important;
+  letter-spacing: 0.025em;
+}
+
+h3 {
+  font-size: 2.25rem !important; /* 40px */
+  line-height: 2.5rem; 
+  font-weight: 700 !important;
+  letter-spacing: 0.025em;
+}
+
+h4 {
+  font-size: 1.5rem !important; /* 24px */
+  line-height: 1.75rem;
+  font-weight: 700 !important;
+  letter-spacing: 0.025em;
+}
+
+h5 {
+  font-size: 1rem !important; /* 16px */
+  line-height: 1.25rem; 
+  font-weight: 700 !important;
+  letter-spacing: 0.025em;
+}
+
+.fade-in {
+  transition: opacity 2s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .shadow-divider {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 9px -10px inset;
+  }
+
+  .mirror-x {
+    --tw-scale-x: -1;
+  }
+
+  .text-inherit {
+    color: inherit;
+  }
+
+  .icon-sm {
+    height: 1.25rem;
+    width: 1.25rem;
+  }
+
+  .icon-md {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .icon-base {
+    height: 2rem;
+    width: 2rem;
+    margin: 0.25rem;
+  }
+
+  .icon-white {
+    fill: white;
+  }
+
+  .logo {
+    height: 20px;
+  }
+}
+ 
+/* social components */
+
+  #shareInput:focus{
+    outline: none;
+  }
